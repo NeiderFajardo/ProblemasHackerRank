@@ -46,8 +46,8 @@ func main(){
 		linea := strings.Split(scanner.Text(), " ")
 		for i, num := range linea{
 			if aux, err := strconv.Atoi(num); err == nil{
-				temp = numeros[i%tamanio
-]				temp = append(temp, aux)
+				temp = numeros[i%tamanio]
+				temp = append(temp, aux)
 				numeros[i%tamanio] = temp
 			}
 		}
